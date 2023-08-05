@@ -13,7 +13,7 @@ if (timers === "") {
 // Looping through each input
 for (let time of timers) {
   // Converting each element into a number
-  let timeNum = Number(time);
+  const timeNum = Number(time);
 
   // If array element is a string or less than 0 it skips it
   if (isNaN(timeNum) || timeNum < 0) {
